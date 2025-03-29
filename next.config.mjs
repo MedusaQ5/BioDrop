@@ -18,7 +18,7 @@ const nextConfig = {
       { protocol: "https", hostname: "github.com" },
       { protocol: "https", hostname: "**.githubusercontent.com" },
       { protocol: "https", hostname: "cdn.nhcarrigan.com" },
-      { protocol: "https", hostname: "avatars.dicebear.com" }
+      { protocol: "https", hostname: "avatars.dicebear.com" },
     ],
     formats: ["image/webp"],
   },
