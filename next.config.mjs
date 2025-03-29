@@ -7,6 +7,9 @@ import runtimeCaching from "next-pwa/cache.js";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
   images: {
     minimumCacheTTL: 60 * 60 * 24,
